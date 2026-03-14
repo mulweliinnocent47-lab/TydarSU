@@ -1,25 +1,90 @@
-# Welcome to your Lovable project
+Image Compressor Pro
 
-## Project info
+A fast, simple, and modern browser-based image compression tool built with React + Vite.
+This tool allows users to compress images directly in the browser without uploading them to a server.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Features
 
-## How can I edit this code?
+- Drag and drop image upload
+- Adjustable compression level
+- Real-time preview
+- Download compressed images instantly
+- Works fully in the browser (no backend required)
+- Fast and lightweight
+- Modern UI
 
-There are several ways of editing your application.
+Demo
 
-**Use Lovable**
+After building the project, open the "dist/index.html" file in your browser or deploy it using services like Netlify or Vercel.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
 
-**Use your preferred IDE**
+Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone the repository:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+git clone https://github.com/yourusername/image-compressor-pro.git
 
+Go into the project directory:
+
+cd image-compressor-pro
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+
+The app will run on:
+
+http://localhost:5173
+
+Build for Production
+
+To generate the final production files:
+
+npm run build
+
+This will create a "dist" folder containing the optimized static website.
+
+Deployment
+
+You can deploy the contents of the "dist" folder using:
+
+- Netlify
+- Vercel
+- GitHub Pages
+- Any static web hosting
+
+No backend or API keys are required.
+
+Usage
+
+1. Open the app in your browser.
+2. Drag and drop an image or click to upload.
+3. Adjust the compression level.
+4. Preview the compressed image.
+5. Download the optimized image.
+
+Privacy
+
+All image processing happens locally in the user's browser.
+Images are never uploaded to any server, ensuring complete privacy.
+
+License
+
+This project is open-source and available under the MIT License.
+
+Author
+
+Created by MULWELI
 Follow these steps:
 
 ```sh
